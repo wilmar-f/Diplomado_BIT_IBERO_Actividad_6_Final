@@ -1,0 +1,227 @@
+/* UI KIT - COLORES PARA EL PROYECTO 
+#78C0E0
+#449DD1
+#192BC2
+#150578
+#0E0E52 */
+
+body {
+    background-image: url('./imagenes/backgroud1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Henny Penny', cursive;
+    color: #150578;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'Henny Penny', cursive;
+    color: #150578;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.titulo-adopta h2 {
+    margin: 3rem 0;
+    color: #005696;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ced4da;
+}
+
+p {
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 1.0rem;
+    font-family: 'arial', sans-serif;
+    color: #150578;
+}
+
+header{
+    background-color: #78C0E0;
+    padding: 15px 20px;
+}
+
+.myButton{
+    border: none;
+    font-size: 1.0rem;
+    margin: 5px;
+    background-color: #a5dcf3;
+    padding: 10px;
+    border-radius: 40px;
+    color: #112A46;
+}
+
+
+.hero {
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero p {
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+
+.hero h1 {
+    color: #0b4f8a;
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+}
+
+.hero p {
+    margin: 3rem 0;
+    color: #333333;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #150578;
+}
+
+.hero-adopta{   
+    border:none;
+    border-radius: 60px;
+    padding: 10px 20px;
+    background-color: #192BC2;
+    color:white;
+    font-weight: bold;
+}
+
+.hero-adopta:hover{
+    background-color: rgb(2, 59, 2);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}   
+
+.disp-adopta{
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.carrusel-productos {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.carrusel-productos .carousel-item img {
+    height: 500px;
+}
+
+footer{
+    background-color: #0E0E52;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.about {
+    margin: 3rem 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.about-text p{
+    width: 500px;
+
+}
+.about-image img {
+    width: 400px; height: 200px;
+
+}
+
+.info-contact {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.icono-red {
+    font-size: 32px;
+    color: black;
+    transition: color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+
+.icono-red:hover {
+    transform: translateY(-3px);
+}
+
+/* Icono Facebook) */
+.icono-red[href*="facebook.com"]:hover {
+    color: #1877F2; 
+}
+
+/* Icono Instagram) */
+.icono-red[href*="instagram.com"]:hover {
+    color: #E1306C; 
+}
+
+/* Icono Azul Twitter clásico) */
+.icono-red[href*="x.com"]:hover,
+.icono-red[href*="twitter.com"]:hover {
+    color: #1DA1F2; 
+}
+
+.btn-like {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;        /* Tamaño del ícono */
+}
+
+.btn-like:hover {
+    background-color: #ffe6e6;
+}
+
+/* 1. Contenedor: Controla la alineación del ícono y el número */
+.seccion-likes {
+  display: flex;          /* Alinea el corazón y el número en una sola línea */
+  align-items: center;    /* Centra verticalmente el ícono con el texto */
+  gap: 6px;               /* Espacio entre el corazón y el número */
+  margin-bottom: 8px;     /* Espacio antes del botón */
+  justify-content: flex-start; /* Alinea a la izquierda (cambia a 'center' para centrar) */
+}
+
+/* 2. Estilo del texto del contador (Número) */
+.contador-likes {
+  color: #2b2b2b;         /* Cambia el color del texto (ej. gris oscuro, azul, etc.) */
+  font-size: 15px;        /* Tamaño de la fuente */
+  font-weight: 600;       /* Grosor de la letra (semi-negrita) */
+  font-family: Arial, sans-serif; /* Tipografía personalizada */
+}
+

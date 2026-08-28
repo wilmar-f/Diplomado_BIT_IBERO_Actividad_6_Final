@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Conexion Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- termina Conexion Bootstrap -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+
+    <!-- CONEXION CON ICONOS REDES SOCIALES -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- TERMINA CONEXION CON ICONOS REDES SOCIALES -->
+
+    <title>SOMOS GUAU!!</title>
+    </head>
+
+<body>
+
+    <header>
+            
+        <!-- NavBar de Bootstrap 5.3.8 -->
+        <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"></a>
+            <img src="./imagenes/logo/logo-4.jpg" alt="Logo de Hogar Guau" width="150" height="100">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">
+                    <button class="myButton">Inicio</button>
+                </a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#adopta">
+                    <button class="myButton">Adopta</button>
+                </a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#tienda">
+                    <button class="myButton">Tienda</button>
+                </a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#about">
+                    <button class="myButton">Sobre nosotros</button>
+                </a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#contact">
+                    <button class="myButton">Contacto</button>
+                </a>
+                </li>
+                
+            </ul>
+            </div>
+        </div>
+        </nav>
+        <!--Finaaliza NavBar de Bootstrap 5.3.8 -->
+    </header>
+
+    <main>
+        
+        <section id="home" class="hero">
+            <h1>REFUGIO GUAU</h1>
+
+            <p>Buscamos proteger la vida de perros y gatos en estado de maltrato y abandono. Les brindamos alimentos, medicamentos y albergue, con el fin de mejorar su calidad de vida y conseguirles un hogar. Tu proximo mejor amigo, esta aqui.
+            </p>
+            <div class="hero-buttons">
+            <a href="./donar.html">
+            <button class="hero-adopta">Apadrina</button>
+            </a>
+            <a href="#adopta">
+            <button class="hero-adopta">Adopta</button>
+            </a>
+            </div>
+        </section>
+
+        <!-- SE IMPORTA CARD DE BOOTSTRAP PARA MOSTRAR INFORMACION DE LOS PERROS Y GATOS DISPONIBLES PARA ADOPCION -->
+        <div class="titulo-adopta"><h2>LOS RECIÉN LLEGADOS</h2></div> 
+
+        <section id="adopta">
+            <h2>Adopta</h2>
+            <p>Adopta a tu nuevo mejor amigo.</p>
+        </section>
+
+        <section class="disp-adopta"> 
+            <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="./imagenes/gato1.jpg" class="img-fluid rounded-start" alt="gato">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Bonnie</h5>
+                    <p class="card-text">Hembra <br> Personalidad: juguetona <br> Desparacitada</p>
+                    <p class="card-text"><small class="text-body-secondary">
+                        Peso:1.6 Kg <br> Años: 1 años <br> Ubicación:Bogota</small></p>
+
+                        <!-- Estructura del me gusta -->
+                        <div class="seccion-likes">
+                            <button class="btn-like">❤️</button>
+                            <span class="contador-likes">0</span> Me gusta
+                        </div>
+                        <!-- Fin de la estructura del me gusta -->
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="disp-adopta"> 
+            <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="./imagenes/perro1.jpg" class="img-fluid rounded-start" alt="gato">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Rex</h5>
+                    <p class="card-text">Macho <br>Personalidad travieso <br> Vacunado</p>
+                    <p class="card-text"><small class="text-body-secondary">
+                        Peso:1.6 Kg <br> Años:0.3 años <br> Ubicación:Bogota</small></p>
+
+                        <!-- Estructura del me gusta -->
+                        <div class="seccion-likes">
+                            <button class="btn-like">❤️</button>
+                            <span class="contador-likes">0</span> Me gusta
+                        </div>
+                        <!-- Fin de la estructura del me gusta -->
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+                <section class="disp-adopta"> 
+            <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="./imagenes/gato2.jpg" class="img-fluid rounded-start" alt="gato">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Zoe</h5>
+                    <p class="card-text">Hembra|<br> Personalidad: Tierna <br> Desparacitada</p>
+                    <p class="card-text"><small class="text-body-secondary">
+                        Peso:1.2 Kg <br> Años: 4 meses <br> Ubicación:Bogota</small></p>
+
+                        <!-- Estructura del me gusta -->
+                        <div class="seccion-likes">
+                            <button class="btn-like">❤️</button>
+                            <span class="contador-likes">0</span> Me gusta
+                        </div>
+                        <!-- Fin de la estructura del me gusta -->
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+                <section class="disp-adopta"> 
+            <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="./imagenes/perro2.jpg" class="img-fluid rounded-start" alt="gato">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Casandra</h5>
+                    <p class="card-text">Hembra <br> Personalidad: coqueta <br> Esterilizada</p>
+                    <p class="card-text"><small class="text-body-secondary">
+                        Peso:5 Kg <br> Años:2 años <br> Ubicación:Bogota</small></p>
+
+                        <!-- Estructura del me gusta -->
+                        <div class="seccion-likes">
+                            <button class="btn-like">❤️</button>
+                            <span class="contador-likes">0</span> Me gusta
+                        </div>
+                        <!-- Fin de la estructura del me gusta -->
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+                <section class="disp-adopta"> 
+            <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="./imagenes/gato3.jpg" class="img-fluid rounded-start" alt="gato">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Milo</h5>
+                    <p class="card-text">Macho <br> Personalidad: tranquilo <br> Esterilizado y vacunado.</p>
+                    <p class="card-text"><small class="text-body-secondary">
+                        Peso:2 Kg <br> Años:1 año <br> Ubicación:Villavicencio</small></p>
+
+                        <!-- Estructura del me gusta -->
+                        <div class="seccion-likes">
+                            <button class="btn-like">❤️</button>
+                            <span class="contador-likes">0</span> Me gusta
+                        </div>
+                        <!-- Fin de la estructura del me gusta -->
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+                <section class="disp-adopta"> 
+            <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="./imagenes/perro3.jpg" class="img-fluid rounded-start" alt="gato">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Danger</h5>
+                    <p class="card-text">Macho <br> Personalidad: mal geniado - peligroso <br> Vacunado</p>
+                    <p class="card-text"><small class="text-body-secondary">
+                        Peso:1.6 Kg <br> Años:5 meses <br> Ubicación:Villavicencio</small></p>
+
+                        <!-- Estructura del me gusta -->
+                        <div class="seccion-likes">
+                            <button class="btn-like">❤️</button>
+                            <span class="contador-likes">0</span> Me gusta
+                        </div>
+                        <!-- Fin de la estructura del me gusta -->
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- FINALIZA CARD DE BOOTSTRAP PARA MOSTRAR INFORMACION DE LOS PERROS Y GATOS DISPONIBLES PARA ADOPCION -->
+        
+
+
+        <!-- EMPIEZA CARRUSEL DE BOOTSTRAP PARA MOSTRAR IMAGENES DE LA TIENDA - PRODUCTOS, se añaden otros 3 articulos al carrusel-->
+        <section id="tienda">
+            <h2>Tienda</h2>
+            <p>Contamos con gran variedad de productos para cuidar la salud de tus mascotas.</p>
+        </section>
+
+        <div class="carrusel-productos">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="./imagenes/producto1.jpg" class="d-block w-100" alt="producto venta">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./imagenes/producto2.jpg" class="d-block w-100" alt="producto venta">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./imagenes/producto3.jpg" class="d-block w-100" alt="producto venta">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./imagenes/producto4.jpg" class="d-block w-100" alt="producto venta">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./imagenes/producto5.jpg" class="d-block w-100" alt="producto venta">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./imagenes/producto6.jpg" class="d-block w-100" alt="producto venta">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+<!-- TERMINA CARRUSEL DE BOOTSTRAP PARA MOSTRAR IMAGENES DE LA TIENDA - PRODUCTOS -->
+
+
+        <section id="about" class="about">
+                <div  class="about-text">          
+                    <h2>Sobre nosotros</h2>
+                    <p>Refugio GUAU, se asocia con albergues y grupos de rescate por todo el país, todos trabajando para salvar las vidas de perros y gatos en comunidades como la tuya por todo el país. </p>
+                    <p>Cada uno de nuestros socios de la red necesitan personas como tú, para adoptar, servir como hogar temporal, donar, ser voluntario y abogar por los animales, a fin de ayudar a salvar las vidas de las mascotas donde vives. </p>
+                </div>
+                <div class="about-image">   
+                    <img src="./imagenes/acerca.jpg" alt="Logo de Hogar Guau" width="150" height="100">
+                </div>
+        </section>
+
+        <section id="contact" class="info-contact">
+            <div  class="info-text"> 
+                <h2>Contáctanos</h2>
+                <p> Si tienes preguntas o comentarios, por favor déjanos un mensaje al informacion@refugioguau.org</p>
+            </div>
+            <div  class="info-logo">    
+            <img src="./imagenes/logo/logo-4.jpg" alt="Logo de Hogar Guau" width="150" height="100">
+            </div>
+            <div  class="info-redes"> 
+                <h2>Redes sociales</h2>
+                <p>Encuéntranos en nuestras redes sociales y mantente al día con nuestras actividades y eventos.</p>
+<section class="redes-sociales">
+    <a href="https://facebook.com" target="_blank" class="icono-red"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://instagram.com" target="_blank" class="icono-red"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://x.com" target="_blank" class="icono-red"><i class="fa-brands fa-twitter"></i></a>
+</section>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        &copy; 2026 Refugio para mascotas "GUAU". Todos los derechos reservados - Colombia - Hecho por Wilmar Franco  actvidad académica Diplomado BIT Desarrollo Web - Universidad IBERO
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
