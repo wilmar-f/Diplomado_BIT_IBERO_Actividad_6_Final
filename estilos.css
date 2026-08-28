@@ -225,3 +225,52 @@ footer{
   font-family: Arial, sans-serif; /* Tipografía personalizada */
 }
 
+/* --- ESTILOS SECCIÓN COMENTARIOS --- */
+.seccion-comentarios {
+    margin-top: 15px;
+    border-top: 1px solid #dee2e6;
+    padding-top: 10px;
+}
+
+.seccion-comentarios h6 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #150578;
+    margin-bottom: 8px;
+}
+
+.lista-comentarios {
+    list-style: none;
+    padding-left: 0;
+    max-height: 120px;
+    overflow-y: auto; /* Permite scroll si hay muchos comentarios */
+    margin-bottom: 10px;
+}
+
+.lista-comentarios li {
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 0.85rem;
+    color: #333;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-break: break-word;
+}
+
+/* Botón para borrar un comentario */
+.btn-borrar-comentario {
+    background: none;
+    border: none;
+    color: #dc3545;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin-left: 8px;
+}
+
+.btn-borrar-comentario:hover {
+    color: #a71d2a;
+}
